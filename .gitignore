@@ -1,0 +1,37 @@
+# Environment & secrets
+.env
+.env.*
+*.env
+!*.env.example
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+
+# Build outputs & caches
+dist/
+build/
+.vite/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Large datasets (>100MB GitHub push limit)
+Data/*.csv
+Data/*.parquet
+
+# Redundant local assets (duplicates of Frontend/public/images/)
+Frontend/images/
+
+# Databases & logs
+*.db
+*.sqlite3
+*.log
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
